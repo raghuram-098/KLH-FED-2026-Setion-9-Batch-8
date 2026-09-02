@@ -124,8 +124,6 @@ Output:
 
 Full brightness is activated.
 
-![Night Motion](Images/night_motion.png)
-
 ## Software Used
 
 - Logisim Evolution
