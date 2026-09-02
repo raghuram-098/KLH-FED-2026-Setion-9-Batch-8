@@ -53,46 +53,53 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(150,190)" to="(180,190)"/>
-    <wire from="(150,80)" to="(180,80)"/>
-    <wire from="(80,60)" to="(140,60)"/>
-    <wire from="(230,190)" to="(290,190)"/>
-    <wire from="(230,80)" to="(290,80)"/>
-    <wire from="(80,100)" to="(80,170)"/>
-    <wire from="(100,160)" to="(100,170)"/>
-    <wire from="(130,170)" to="(180,170)"/>
-    <wire from="(150,80)" to="(150,190)"/>
-    <wire from="(80,170)" to="(100,170)"/>
-    <wire from="(140,60)" to="(140,210)"/>
-    <wire from="(140,210)" to="(180,210)"/>
-    <wire from="(140,60)" to="(180,60)"/>
-    <wire from="(80,80)" to="(150,80)"/>
-    <wire from="(80,100)" to="(180,100)"/>
-    <comp lib="0" loc="(80,60)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(230,190)" name="AND Gate">
+    <wire from="(510,380)" to="(510,450)"/>
+    <wire from="(530,440)" to="(530,450)"/>
+    <wire from="(510,340)" to="(570,340)"/>
+    <wire from="(560,450)" to="(610,450)"/>
+    <wire from="(580,360)" to="(580,470)"/>
+    <wire from="(580,360)" to="(610,360)"/>
+    <wire from="(580,470)" to="(610,470)"/>
+    <wire from="(510,450)" to="(530,450)"/>
+    <wire from="(660,470)" to="(720,470)"/>
+    <wire from="(660,360)" to="(720,360)"/>
+    <wire from="(570,490)" to="(610,490)"/>
+    <wire from="(570,340)" to="(610,340)"/>
+    <wire from="(510,380)" to="(610,380)"/>
+    <wire from="(510,360)" to="(580,360)"/>
+    <wire from="(570,340)" to="(570,490)"/>
+    <comp lib="1" loc="(660,360)" name="AND Gate">
       <a name="inputs" val="3"/>
+      <a name="label" val="FULL"/>
     </comp>
-    <comp lib="0" loc="(290,190)" name="Pin">
+    <comp lib="0" loc="(720,470)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="DIM BRIGHTNESS"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(290,80)" name="Pin">
+    <comp lib="1" loc="(660,470)" name="AND Gate">
+      <a name="inputs" val="3"/>
+      <a name="label" val="DIM "/>
+    </comp>
+    <comp lib="0" loc="(510,360)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="DAY/NIGHT"/>
+    </comp>
+    <comp lib="0" loc="(720,360)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
+      <a name="label" val="FULL BRIGHTNESS"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(80,80)" name="Pin">
+    <comp lib="0" loc="(510,340)" name="Pin">
       <a name="tristate" val="false"/>
+      <a name="label" val="ENABLE"/>
     </comp>
-    <comp lib="1" loc="(130,170)" name="NOT Gate"/>
-    <comp lib="1" loc="(230,80)" name="AND Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(80,100)" name="Pin">
+    <comp lib="0" loc="(510,380)" name="Pin">
       <a name="tristate" val="false"/>
+      <a name="label" val="MOBILITY"/>
     </comp>
+    <comp lib="1" loc="(560,450)" name="NOT Gate"/>
   </circuit>
 </project>
