@@ -92,8 +92,6 @@ Both outputs remain OFF regardless of the sensor inputs.
 
 The circuit is designed and simulated using Logisim Evolution.
 
-![Circuit Diagram](Images/circuit.png)
-
 ## Simulation Results
 
 ### Day Mode
@@ -106,8 +104,6 @@ Output:
 
 Lights remain OFF.
 
-![Day Mode](Images/day_output.png)
-
 ### Night Mode – No Mobility
 
 `E = 1, L = 1, M = 0`
@@ -117,8 +113,6 @@ Output:
 `F = 0, D = 1`
 
 Dim standby lighting is activated.
-
-![Night Idle](Images/night_idle.png)
 
 ### Night Mode – Mobility Detected
 
